@@ -19,22 +19,22 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  /*border-bottom: 1px solid #e5e5e5;*/
   margin-bottom: 10px;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+  /*line-height: 40px;*/
+  /*padding-bottom: 19px;*/
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  /*border-top: 1px solid #e5e5e5;*/
 }
 
 .container-narrow > hr {
@@ -62,7 +62,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    /*max-width: 730px;*/
   }
 
   /* Remove the padding we set earlier */
@@ -83,10 +83,10 @@ body {
 }
 
 /* Responsive iFrame */
-/* fog Google Calendar */ 
+/* fog Google Maps */ 
 .responsive-iframe-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 30%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
@@ -95,6 +95,26 @@ body {
 .responsive-iframe-container iframe,   
 .vresponsive-iframe-container object,  
 .vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive iFrame */
+/* fog Google Calendar */ 
+.responsive-iframe-container-calendar {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container-calendar iframe,   
+.vresponsive-iframe-container-calendar object,  
+.vresponsive-iframe-container-calendar embed {
     position: absolute;
     top: 0;
     left: 0;

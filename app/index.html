@@ -41,6 +41,7 @@
 
             <ul class="nav navbar-nav">
               <li ng-class="{ active: isActive('/about')}"><a ng-href="#/about">About</a></li>
+              <li ng-class="{ active: isActive('/address')}"><a ng-href="#/address">Address</a></li>
               <li ng-class="{ active: isActive('/services')}"><a ng-href="#/services">Services</a></li>
               <li ng-class="{ active: isActive('/contact')}"><a ng-href="#/contact">Contact</a></li>
               <li>      <!-- Button trigger modal -->
@@ -52,10 +53,14 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <h2 align="center">St Ephraim Orthodox Parish, Cambridge, UK</h2>
+      </div>
     </div>
 
     <div class="container">
-    <div ng-view=""></div>
+      <div ng-view=""></div>
+      <br><br>
     </div>
 
     <div class="footer">
@@ -143,6 +148,7 @@
         <script src="scripts/controllers/services.js"></script>
         <script src="scripts/controllers/contact.js"></script>
         <script src="scripts/controllers/index.js"></script>
+        <script src="scripts/controllers/address.js"></script>
         <!-- endbuild -->
 </body>
 </html>

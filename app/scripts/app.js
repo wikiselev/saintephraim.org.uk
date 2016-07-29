@@ -39,6 +39,11 @@ angular
       .when('/services', {
         templateUrl: 'views/services.html'
       })
+      .when('/address', {
+        templateUrl: 'views/address.html',
+        controller: 'AddressCtrl',
+        controllerAs: 'address'
+      })
       .otherwise({
         redirectTo: '/'
       });
