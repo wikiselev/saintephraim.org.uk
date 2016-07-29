@@ -3,3 +3,6 @@
 /.sass-cache
 /bower_components
 /OLD
+/deploy.sh
+/.DS_Store
+/*/.DS_Store
