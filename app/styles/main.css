@@ -21,6 +21,8 @@ body {
 .header {
   /*border-bottom: 1px solid #e5e5e5;*/
   margin-bottom: 10px;
+  padding-bottom: 0px;
+  /*background-color: #FDEBD0;*/
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -30,11 +32,32 @@ body {
   /*padding-bottom: 19px;*/
 }
 
+.header img {
+  float: left;
+/*  width: 100px;
+  height: 100px;*/
+  /*background: #555;*/
+}
+
+.header h1 {
+  position: relative;
+  top: 2px;
+  left: 40px;
+}
+
+.well-header {
+    background-color: #FDEBD0;
+    padding-bottom: 40px;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #777;
-  /*border-top: 1px solid #e5e5e5;*/
+  padding-bottom: 8px;
+  color: #000;
+  border-top: 1px solid #e5e5e5;
+  background-color: #EAEDED;
+  box-shadow: 0px 500px 0px 500px #EAEDED;
 }
 
 .container-narrow > hr {
@@ -74,7 +97,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
