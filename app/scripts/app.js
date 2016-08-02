@@ -17,7 +17,8 @@ angular
     'ngResource', 
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'mailchimp'
   ])
   .config(function ($routeProvider) {
     $routeProvider

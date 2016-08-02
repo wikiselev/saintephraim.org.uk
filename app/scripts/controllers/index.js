@@ -14,3 +14,4 @@ angular.module('parishWebsiteApp')
 	     return active;
 	};
   });
+
