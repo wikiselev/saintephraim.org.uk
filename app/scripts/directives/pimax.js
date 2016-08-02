@@ -13,9 +13,7 @@ angular.module('parishWebsiteApp')
           template: '<div class="pimax"></div>',
           link: function (scope, element, attrs) {
               element.pimax({
-				apiKey:"AIzaSyAlhAqP5RS7Gxwg_0r_rh9jOv_5WfaJgXw",
-				//user:"https://plus.google.com/u/0/117915201833213417210",		
-				//user:"https://plus.google.com/104505314527173869679",		
+				apiKey:"AIzaSyCULFdIBkEbNt93ZFdNbldfKouFGXZPTgg",	
 				user:"https://plus.google.com/111969728453042151069",
 
 				album:[
