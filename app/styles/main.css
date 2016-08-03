@@ -21,7 +21,7 @@ body {
 .header {
   /*border-bottom: 1px solid #e5e5e5;*/
   margin-bottom: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   /*background-color: #FDEBD0;*/
 }
 /* Make the masthead heading the same height as the navigation */
@@ -150,6 +150,10 @@ body {
 }
 
 .navbar {
+    margin-bottom: 0 !important;
+}
+
+.lead {
     margin-bottom: 0 !important;
 }
 
