@@ -21,7 +21,7 @@ body {
 .header {
   /*border-bottom: 1px solid #e5e5e5;*/
   margin-bottom: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   /*background-color: #FDEBD0;*/
 }
 /* Make the masthead heading the same height as the navigation */
@@ -45,14 +45,9 @@ body {
   left: 40px;
 }
 
-.well-header {
-    background-color: #FDEBD0;
-    padding-bottom: 40px;
-}
-
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
+  padding-top: 30px;
   padding-bottom: 19px;
   color: #000;
   border-top: 1px solid #e5e5e5;
@@ -143,4 +138,40 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/*background image in the header*/
+.wide {
+  padding-top: 0px;
+  width:100%;
+  height:250px;
+  /*height:calc(100% - 1px);*/
+  background: url("../images/s0815009.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+
+.wide img {
+  width:100%;
+}
+
+.logo {
+  color:#fff;
+  font-weight:600;
+  font-size:6vmin;
+  padding-top:180px;
+  text-align:center;
+}
+
+.line {
+  padding-top:25px;
+  white-space:no-wrap;
+  overflow:hidden;
+  text-align:center;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
 }
