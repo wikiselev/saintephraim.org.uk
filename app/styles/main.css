@@ -77,29 +77,6 @@ body {
   margin-top: 28px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    /*max-width: 730px;*/
-  }
-
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 15px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
-
 /* Responsive iFrame */
 /* fog Google Maps */ 
 .responsive-iframe-container {
@@ -160,8 +137,8 @@ body {
 .logo {
   color:#fff;
   font-weight:600;
-  font-size:6vmin;
-  padding-top:180px;
+  font-size:18pt;
+  padding-top:200px;
   text-align:center;
 }
 
@@ -174,4 +151,32 @@ body {
 
 .navbar {
     margin-bottom: 0 !important;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    /*max-width: 730px;*/
+  }
+
+  .logo {
+    font-size:32pt;
+    padding-top:180px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 15px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
