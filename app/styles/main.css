@@ -22,6 +22,7 @@ body {
   /*border-bottom: 1px solid #e5e5e5;*/
   margin-bottom: 10px;
   padding-bottom: 0px;
+  padding-top: 51px;
   /*background-color: #FDEBD0;*/
 }
 /* Make the masthead heading the same height as the navigation */
@@ -97,26 +98,6 @@ body {
     height: 100%;
 }
 
-/* Responsive iFrame */
-/* fog Google Calendar */ 
-.responsive-iframe-container-calendar {
-    position: relative;
-    padding-bottom: 120%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
- 
-.responsive-iframe-container-calendar iframe,   
-.vresponsive-iframe-container-calendar object,  
-.vresponsive-iframe-container-calendar embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 /*background image in the header*/
 .wide {
   padding-top: 0px;
@@ -160,7 +141,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    /*max-width: 730px;*/
+    max-width: 970px;
   }
 
   .logo {
