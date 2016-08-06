@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name parishWebsiteApp.controller:ContactCtrl
+ * @name parishWebsiteApp.controller:ContactsCtrl
  * @description
- * # ContactCtrl
+ * # ContactsCtrl
  * Controller of the parishWebsiteApp
  */
 angular.module('parishWebsiteApp')
-  .controller('ContactCtrl', function () {
+  .controller('ContactsCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
