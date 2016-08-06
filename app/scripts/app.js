@@ -45,6 +45,11 @@ angular
         controller: 'AddressCtrl',
         controllerAs: 'address'
       })
+      .when('/helpers', {
+        templateUrl: 'views/helpers.html',
+        controller: 'HelpersCtrl',
+        controllerAs: 'helpers'
+      })
       .otherwise({
         redirectTo: '/'
       });
