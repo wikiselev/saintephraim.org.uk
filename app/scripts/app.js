@@ -50,6 +50,11 @@ angular
         controller: 'HelpersCtrl',
         controllerAs: 'helpers'
       })
+      .when('/building', {
+        templateUrl: 'views/building.html',
+        controller: 'BuildingCtrl',
+        controllerAs: 'building'
+      })
       .otherwise({
         redirectTo: '/'
       });
