@@ -55,6 +55,11 @@ angular
         controller: 'BuildingCtrl',
         controllerAs: 'building'
       })
+      .when('/donations', {
+        templateUrl: 'views/donations.html',
+        controller: 'DonationsCtrl',
+        controllerAs: 'donations'
+      })
       .otherwise({
         redirectTo: '/'
       });
